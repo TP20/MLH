@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html>
+
+<head>
+<title> Maple Leaf Harvest </title>
+<link rel="icon" href="favicon.ico" type="../image/x-icon" /> 
+<link rel="stylesheet" href="../css/dist/css/bootstrap.min.css">
+<link rel ="stylesheet" href ="../css/main.css">
+<link rel ="stylesheet" href ="../css/team.css">
+<link rel ="stylesheet" href ="../css/flip.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+<link href="//vjs.zencdn.net/4.10/video-js/css" rel="stylesheet">
+<script src="//vjs.zencdn.net/4.10/video.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<script  type="text/javascript"src="http://code.jquery.com/jquery-2.1.0.min.js"></script>	
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>  
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript"src="../js/team.js"></script>
+<script type="text/json"src="../js/member.json"></script>
+
+	<noscript> Javascript Must be enabled on your browser! </noscript>
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-nav" role="navigation">
+	<div id="mobileLogo" class= "dropdown" style="position:fixed; display:none; z-index:10;">
+	
+		<ul id="mobileSocial" class="navbar-nav pull-right" style=" z-index:7; position:fixed; z-index:10; top:10px; display:none;">
+			<li style="display:inline;">  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/officialmlh"><i class="fa fa-twitter fa-lg"></i></a> </li>
+			<li style="display:inline">  <a href="https://www.facebook.com/pages/Maple-Leaf-Harvest/1484540601804916" class="btn btn-social-icon btn-twitter"><i class="fa fa-facebook fa-lg"></i></a> </li>
+			<li style="display:inline">  <a href="https://www.linkedin.com/company/maple-leaf-harvest" class="btn btn-social-icon btn-twitter"><i class="fa fa-linkedin fa-lg"></i></a> </li>
+		</ul>
+
+		<div id="mobileLogoR" style ="height:70px; width:70px; background-image: url('../css/logo.jpg'); background-size:100%;  display: none; position:fixed; top:10px; z-index:10;"> 
+		</div> 
+
+		<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false" style="background-color:transparent;color:white; border:none; position:fixed; top:25px; left:25px;">    
+			<span class="glyphicon glyphicon-th"></span>
+		</button>
+		<ul style="position:fixed; top:70px; z-index:6; border-radius:0px; background-color:rgba(0,0,0,0.8)" aria-labelledby="dLabel" role="menu" class="dropdown-menu">
+			<li><a href="../index.html" class = "whiteMenuText"> <span class="glyphicon glyphicon-home" style="margin-right:5px;">  </span>  Home </a> </li>
+			<li role="presentation" class="divider"></li>
+			<li role="presentation" class="dropdown-header whiteMenuText"> <span class="glyphicon glyphicon-star-empty" style="margin-right:5px;" >  </span> About Us</li>
+			<li><a href="../index.html#about" class = "greenMenuText" >Who we are</a></li>
+			<li><a href="../blog/whatmakes.html" class = "greenMenuText">What Makes us Different</a></li>
+			<li><a href="../blog/foodis.html" class = "greenMenuText">Food is Available</a></li>
+			<li class = "greenMenuText"></li>
+			<li><a href="../blog/people.html" class = "greenMenuText" >People are in Need</a></li>
+			<li><a href="../team/helen.html" class = "greenMenuText" >Our Founder</a></li>
+			<li role="presentation" class="divider"></li>
+			<li> </li>
+			<li><a class = "whiteMenuText" href="../blog/index.html#blog"> <span class="glyphicon glyphicon-book" style="margin-right:5px;" >  </span> Blog </a></li>
+			<li><a class = "whiteMenuText" href="../blog/index.html#support"> <span class="glyphicon glyphicon-thumbs-up" style="margin-right:5px;">  </span>  Support Us </a></li>
+			<li><a class = "whiteMenuText" href="team.php"> <span class="glyphicon glyphicon-user" style="margin-right:5px;">  </span> Team </a></li>
+			<li><a class = "whiteMenuText" href="../contact.html"><span class="glyphicon glyphicon-phone-alt" style="margin-right:5px;" >  </span> Contact  </a> </li>
+		</ul>
+  </div>
+</nav>
+
+
+
+<!--- nav bar after passing headline -->
+<nav id="navbarDesktop-two" class="navbar-nav navbar-fixed-top" role="navigation">
+	<!--<nav class="navbar-nav navbar-fixed-top" role="navigation"> -->
+	<ul class="nav navbar-nav" style="margin-top:10px;"> 
+		<div id="mobileLogoR" style ="height:70px; width:70px; margin-left:40px; background-image: url('../css/logo.jpg'); background-size:100%; position:fixed; top:10px; z-index:10;"> 
+		</div>
+	</ul>
+    <ul class="nav navbar-nav navbar-right" id="navbarSecondary">
+		<li><a class = "whiteMenuText" href="../index.html"> Home </a> </li>
+		<li class="dropdown"> <a href="#" class="dropdown-toggle navBarFont whiteMenuText" data-toggle="dropdown" role="button" aria-expanded="true">About us <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu" id="bg-dropDown">
+			<li><a href="../index.html#about" class = "greenMenuText">Who we are</a></li>
+            <li><a href="../blog/whatmakes.html" class = "greenMenuText">What Makes us Different</a></li>
+            <li><a href="../blog/foodis.html"  class = "greenMenuText">Food is Available</a></li>
+            <li class = "greenMenuText" ></li>
+            <li><a href="../blog/people.html" class = "greenMenuText" >People are in Need</a></li>
+			<li><a href="../team/helen.html"  class = "greenMenuText" >Our Founder</a></li>
+        </ul>
+		<!-- WTF? -->
+        </li>
+        <li><a class = "whiteMenuText" href="../index.html#blog"> Blog </a></li>
+		<li><a class = "whiteMenuText" href="../index.html#support"> Support Us </a></li>
+		<li><a class = "whiteMenuText" href="team.php"> Team </a></li>
+		<li><a class = "whiteMenuText" href="../contact.html"> Contact </a></li>
+		<li style="display:inline;">  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/officialmlh"><i class="fa fa-twitter fa-lg"></i></a> </li>
+        <li style="display:inline">  <a href="https://www.facebook.com/pages/Maple-Leaf-Harvest/1484540601804916" class="btn btn-social-icon btn-twitter"><i class="fa fa-facebook fa-lg"></i></a> </li>
+        <li style="display:inline">  <a href="https://www.linkedin.com/company/maple-leaf-harvest" class="btn btn-social-icon btn-twitter"><i class="fa fa-linkedin fa-lg"></i></a> </li>
+	</ul>
+</nav>
+<!-- </div> -->
+<nav id="navbar-bg-mobile"></nav>  
+
+<div class="container">
+	<div class="memberPicShawn2"> </div>
+	<div  class ="paragraphBlogs">
+		<p class="nameT" style="text-align:center;"> Shawn William Baker  <br></p>
+        <p class="positionT" style="text-align:center;">   Board Member  <br> <span style="color: #00C3FF; font-size:15px; top:-5px; position:relative;">  h.palit@mapleleafharvest.org   </span></p>
+		<p class="pLettersT">Since 1985, Shawn Baker has worked in the metal installation industry and founded Canadian Metal 
+		Manufacturing Inc. in 1997 by serving the construction industry in the supplying and installation of sheet metal components. In 2004 he 
+		joined the Self-Storage industry as the only Canadian manufacturer and supplier of self-storage components. 2008 Shawn organized a team of 
+		experts offering TurnKey Storage SystemsTM, integrated services from setting up to implementing functional day to day operation of self-storage 
+		facilities. Today his companies offer complete turnkey services to companies, organizations and/or individuals tackling both small and major 
+		projects anywhere in North America.
+		</p>
+
+		<br> <br>
+		<center> <a href="../index.html" style="text-align:center;"> <button class="btn btn-success" id="backButton"> <p class="pLettersButton"> Back </p></button> </a> </p> </center>
+
+	</div>
+</div>    
+
+<img class="leafs" src="../css/maple2.png">
+<img class="leafs2" src="../css/maple2.png">
+
+
+<p style="text-align:center; font-size:12px;" class="pLetters"> Maple Leaf Harvest <span class= "glyphicon glyphicon-copyright-mark"> </span><br> Web Design by Thujan Paramsothy </p>
+
+
+</body>
+</html>

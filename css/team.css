@@ -1,0 +1,225 @@
+.paragraphT {
+     width: 45%;
+}
+
+.nameT {
+     font-family: "Roboto",sans-serif;
+     font-size: 23px;
+     font-weight: 300;
+}
+
+.volunteerText {
+     font-size: 10px;
+     padding-top: 10px;
+     text-align: center;
+}
+
+.positionT {
+     color: #9bd450;
+     font-family: "Roboto",sans-serif;
+     font-size: 20px;
+     font-weight: 300;
+     position: relative;
+     top: -10px;
+}
+#navTest2 {
+     background-image: url("bar.png");
+     background-size: 100% 100%;
+}
+.paragraphBlogs{
+position:relative; width: 50%;top:100px; margin:0px auto;
+}
+.memberPic2{
+background-image:url('css/staff/kacper.jpg'); 
+background-size:400px; background-position: -90px 10px; 
+border:black solid; height:195px; width:195px; 
+background-repeat:no-repeat; float:right;
+
+}
+.pLettersT {
+     font-family: "Roboto",sans-serif;
+     font-size: 15px;
+     font-weight: 300;
+	 text-align:justify;
+}
+
+
+.topRibbon2 {
+     display: none;
+}
+
+.headingT {
+     height: 0px;
+     left: 170px;
+     position: relative;
+     top: 40px;
+     width: 250px;
+     z-index: 5;
+}
+
+.teamGroup {
+     color: #ff8800;
+     cursor: default;
+     font-family: "Roboto",sans-serif;
+     font-size: 32px;
+     font-weight: 300;
+     left: 10px;
+     position: relative;
+     top: 20px;
+}
+
+#headR {
+     left: 100px;
+     position: relative;
+}
+
+.topRibbon {
+     height: 0px;
+     left: 170px;
+     position: relative;
+     top: 40px;
+     width: 250px;
+     z-index: 5;
+}
+
+.dropdownFonts {
+     color: #9bd450;
+     font-family: Roboto,sans-serif;
+     font-size: 15px;
+     font-weight: 400;
+}
+
+#staffHeading {
+     color: #ff8800;
+     cursor: default;
+     font-family: "Roboto",sans-serif;
+     font-size: 32px;
+     font-weight: 300;
+     margin-bottom: 2%;
+    float:right;
+}
+
+#staffHeading2 {
+     color: #ff8800;
+     display: none;
+     font-family: "Roboto",sans-serif;
+     font-size: 22px;
+     font-weight: 300;
+     left: 270px;
+     position: relative;
+}
+
+.memberPic {
+     text-align: center;
+  position:relative;
+  left:80px;
+}
+.memberPicKacper{
+background-image:url('staff/Kacper.jpg'); background-size:400px; background-position: -90px 10px;  height:195px; width:195px; background-repeat:no-repeat; text-align: center;
+  position:relative;
+  float:right;
+}
+.memberPicHelen{
+background-image:url('staff/Helen.jpg'); background-size:400px; background-position: -90px 10px;  height:195px; width:195px; background-repeat:no-repeat; text-align: center;
+  position:relative;
+  float:right;
+}
+.memberPicHelen2{
+background-image:url('staff/Helen.jpg'); background-size:400px; background-position: -90px 10px;  height:195px; width:195px; background-repeat:no-repeat; text-align: center;
+  position:relative; margin:0px auto; top:80px;
+}
+
+.memberPicRobert2{
+background-image:url('staff/Robert.jpg'); background-size:400px; background-position: -90px 10px;  height:195px; width:195px; background-repeat:no-repeat; text-align: center;
+  position:relative; margin:0px auto; top:80px;
+}
+
+.memberPicKacper2{
+background-image:url('staff/Kacper.jpg'); background-size:400px; background-position: -90px 10px;  height:195px; width:195px; background-repeat:no-repeat; text-align: center;
+  position:relative; margin:0px auto; top:80px;
+}
+
+.memberPicShawn2{
+background-image:url('staff/Shawn.jpg'); background-size:100%;  height:195px; width:195px; background-repeat:no-repeat; text-align: center;
+  position:relative; margin:0px auto; top:80px;
+}
+.memberPicBrian{
+background-image:url('staff/Brian.jpg'); background-size:400px; background-position: -90px 10px;  height:195px; width:195px; background-repeat:no-repeat; text-align: center;
+  position:relative;
+  float:right;
+}
+
+.memberPicJohn{
+background-image:url('staff/John.jpg'); background-size:400px; background-position: -90px 10px;  height:195px; width:195px; background-repeat:no-repeat; text-align: center;
+  position:relative;
+  float:right;
+}
+
+.memberPicShawn{
+background-image:url('staff/Shawn.jpg'); background-size:100%;   height:195px; width:195px; background-repeat:no-repeat; text-align: center;
+  position:relative;
+  float:right;
+}
+.memberPicRobert{
+background-image:url('staff/Robert.jpg'); background-size:400px; background-position: -90px 10px;  height:195px; width:195px; background-repeat:no-repeat; text-align: center;
+  position:relative;
+  float:right;
+}
+  #mobileVolunteers {display:none; }
+
+@media screen and (max-width: 900px) {
+  .pLettersT { font-family: "Roboto",sans-serif; font-size: 12px; font-weight: 300; }
+  .paragraphT { margin: 0px auto; width: 100%; text-align: justify; }
+  .positionT { font-size: 15px; text-align: center; }
+  .nameT { font-size: 15px; text-align: center; }
+  .memberPic {     left:0px; margin:0px auto; position:relative; }
+  
+  .memberPicKacper {   float:none;    left:0px; margin:0px auto; position:relative; }
+  
+   .memberPicHelen {  float:none;     left:0px; margin:0px auto; position:relative;}
+  
+    .memberPicBrian { float:none;      left:0px; margin:0px auto; position:relative; }
+  
+  .memberPicJohn{
+ left:0px; margin:0px auto; position:relative; float:none;
+}
+
+.memberPicShawn{
+ left:0px; margin:0px auto; position:relative; float:none;
+}
+
+.memberPicRobert{
+ left:0px; margin:0px auto; position:relative; float:none;
+}
+  .teamGroup { font-size: 22px; text-align: center; left: 0px; }
+  #headR { display: none; }
+  .topRibbon { display: none; }
+  .topRibbon2 { display: block; }
+  .headingWord { text-align: center; margin-top:10px; }
+  .paragraphBlogs{width:100%;}
+  #staffHeading { float: none; text-align:center; } */
+  /*#staffHeading2 { color: #ff8800;
+     cursor: default;
+     font-family: 'Roboto',sans-serif;
+     font-size: 32px;
+     font-weight: 300;
+   text-align:center; display:none;}*/
+  /* #staff2{ display:block;} */
+  #mobileLogo { position: fixed; z-index: 10; display: block ! important; }
+ /* #mobileSocial { position: fixed; z-index: 10; top: 10px; left: 60%; display: block ! important; } */
+  #mobileSocial { position: fixed; float:right !important; z-index: 10; top: 10px; right: 3%; display: block ! important; }
+ #mobileLogoR{ display:block !important;}
+ #originalVolunteers{display:none}
+  #mobileVolunteers {display: block; text-align: center; position:relative; }
+  .paragraphBlogs{width:100%;}
+  /* #navTest{display:none !important;} */
+    #navbarSecondary{display:block !important;} 
+	#navbarDesktop-two{display:none !important;}
+	#fader{display:none !important;}
+	#dLabel:hover{
+		color:#9bd450 !important;
+       }
+	   
+	   #teamFoot{ margin-top:50px !important;}
+
+}

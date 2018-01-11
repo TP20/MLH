@@ -1,0 +1,27 @@
+section.module.parallax {
+  height: 589px;
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position:relative;
+  z-index:1;
+}
+
+section.module.parallax2 {
+  height: 200px;
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position:relative;
+  z-index:1;
+}
+
+section.module.parallax-1 {
+  background-image: url("team.jpg");
+}
+
+section.module.parallax-2 {
+  background-image: url("leafs.jpg");
+}
